@@ -81,10 +81,13 @@ public class House extends Building{
       System.out.print(this.residents);
      }
 
+
+  //prints out options
   public void showOptions(){
     System.out.println("Available options at " + name + " :\n + hasDiningRoom() \n + nResidents() \n + moveIn(name) \n + moveOut(name) \n + isResident(person)");
   }
 
+  // checks to see if there is an elevator
   public boolean hasElevator(){
     if (hasElevator == true){
       System.out.println("There is an elevator in this house");
@@ -93,6 +96,7 @@ public class House extends Building{
     return hasElevator;
   }
 
+  //checks if floor is accessible
   public void goToFloor(int n){
     if (hasElevator == true && n <= nFloors){
       System.out.println("You are now on foor " + n);
