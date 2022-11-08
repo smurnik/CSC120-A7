@@ -81,11 +81,12 @@ public class Library extends Building{
 
      }
     
-
+  // prints options
   public void showOptions(){
     System.out.println("Available options at " + name + " :\n + addTitle(name) \n + removeTitle(name) \n + checkOut(name) \n + returnBook(name) \n + containsTitle(name) \n + isAvailable(name)");
   }
 
+  //checks if there is an elevator
   public boolean hasElevator(){
     if (hasElevator == true){
       System.out.println("There is an elevator in this house");
@@ -94,6 +95,7 @@ public class Library extends Building{
     return hasElevator;
   }
 
+  //checks if floor is accessible
   public void goToFloor(int n){
     if (hasElevator == true && n <= nFloors){
       System.out.println("You are now on foor " + n);
