@@ -11,3 +11,5 @@ For library I chose to add a method with just name, and one wiht name and addres
 For cafe I chose to add a method with just name, and one wiht name and address
 
 - What worked, what didn't, what advice would you give someone taking this course in the future?
+
+I found instructons a little confusing, I understood the consept but couldn't tell how to apply it/ what I was supposed to do. TA hours helped explain.
