@@ -56,10 +56,12 @@ public class Cafe extends Building {
         this.nCups += 40;
     }
     
+    //Prints out options
     public void showOptions(){
      System.out.println("Available options at " + name + " :\n + sellCoffee() \n + restock()");
   }
 
+    // checks if there is an elevator
     public boolean hasElevator(){
      if (hasElevator == true){
        System.out.println("There is an elevator in this house");
@@ -68,6 +70,7 @@ public class Cafe extends Building {
      return hasElevator;
      }
 
+ //checks if floor is accessible
     public void goToFloor(int n){
     if (hasElevator == true && n <= nFloors){
       System.out.println("You are now on foor " + n);
