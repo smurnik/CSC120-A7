@@ -44,6 +44,23 @@ public class CampusMap {
         CampusMap myMap = new CampusMap();
         myMap.addBuilding(new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4));
         myMap.addBuilding(new Building("Bass Hall", "4 Tyler Court Northampton, MA 01063", 4));
+
+
+        myMap.addBuilding(new House("Cutter House", "1 Henshaw Ave, Northampton, MA 01063", 3, true));
+        myMap.addBuilding(new House("Cushing", "100 Elm Street", 4, true));
+        myMap.addBuilding(new House("Comstock", "Mandelle Rd, Northampton, MA 01063", 4, true));
+        myMap.addBuilding(new House("Scales", "Elm Street, Northampton, MA 01063", 4, true));
+
+        myMap.addBuilding(new Building("Seeyle", "5 Chapin Way, Northampton, MA 01063", 4));
+        myMap.addBuilding(new Building("Ainsworth", "Ainsworth Gym and Olin Fitness Center, 102 Lower College Ln, Northampton, MA 01060", 4));
+
+        myMap.addBuilding(new Library("Neilson Library", "7 Neilson Drive, Northampton, MA 01063", 4));
+        myMap.addBuilding(new Library("Alumnae gym", "83 Green St, Northampton, MA 01063", 4));
+
+        myMap.addBuilding(new Cafe("Campus Center", "Smith College Campus Center, 100 Elm St, Northampton, MA 01063", 4,  640, 75, 75, 40));
+        myMap.addBuilding(new Cafe("Compass Cafe", "7 Neilson Drive, Northampton, MA 01063", 4,  640, 75, 75, 40));
+
+
         System.out.println(myMap);
     }
     
